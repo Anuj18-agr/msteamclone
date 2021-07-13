@@ -39,6 +39,26 @@ return(
 <AppBar className={ classesin.appBar} position = 'static' color='inherit'>
         <Typography variant="h4" align="center">Welcome to App </Typography>
 </AppBar>
+<ul>
+  <li>
+    To make a call please follow the given steps :
+  </li>
+  <li>
+    Enter your name which you want to display on screen
+  </li>
+  <li>
+    To start a call, there are two ways
+    <ul>
+      <li>
+      Either you copy your Dynamic user ID by clicking on Copy ID ,then paste and send it via any social media platform or,
+      </li>
+    <li>
+      Enter ID of user to whom you want to make a call in Make a call tab and click on call
+    </li>
+    </ul>
+  </li>
+  Enjoy your call
+</ul>
  <Videoplayer />
    <Options>
     <Notification />

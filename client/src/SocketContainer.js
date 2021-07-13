@@ -4,8 +4,9 @@ import Peer from 'simple-peer';
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5000');
-// const socket = io('http:');
+// const socket = io('http://localhost:5000');
+const socket = io('https://msteamclone-aa.herokuapp.com/');
+
 
 const ContextProvider = ({ children }) => {
   const [callAccepted, setCallAccepted] = useState(false);
